@@ -1,0 +1,44 @@
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #fff8dc;
+    margin: 0;
+}
+
+.article {
+    max-width: 680px;
+    margin: auto;
+}
+
+.article p {
+    margin: 1em 0;
+}
+
+.article__block {
+    padding: 24px;
+}
+
+.article__title-block .article__title {
+    font-size: 1.5em;
+    color: palevioletred;
+    margin-bottom: 1.5rem;
+}
+
+.article__title-block .article__pretitle {
+    font-size: 1em;
+    font-family: serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.article__image-block img {
+    width: 100%;
+}
+
+.article__image-block .article__description{
+    text-align: center;
+}
